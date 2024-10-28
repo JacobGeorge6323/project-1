@@ -11,7 +11,7 @@ import "./Weather.css";
 
 import { motion } from "framer-motion";
 function Weather() {
-  const API_KEY = "9237863005fffc4415e6434ba129fc70";
+  const API_KEY = "";
   const [weatherData, setWeatherData] = useState(false);
   const inputRef = useRef();
   const allIcons = {
